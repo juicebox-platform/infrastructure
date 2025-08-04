@@ -1,0 +1,9 @@
+gitops_repo: "https://github.com/juicebox-platform/gitops.git"
+gitops_repo_branch: main
+local_clone_path: "/tmp/gitops-repo"
+argocd_values_file_path: "helm-values/argocd/values.yml"
+
+argocd_helm_repo: "https://argoproj.github.io/argo-helm"
+argocd_release_name: "argocd"
+argocd_namespace: "argocd"
+argocd_chart_version: "8.2.5" 

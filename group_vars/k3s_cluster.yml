@@ -1,0 +1,7 @@
+k3s_version: v1.33.3+k3s1
+api_endpoint: juicebox.com
+api_port: 6443
+token: "{{ k3s_token }}"
+ansible_user: "{{ ansible_user }}"
+extra_server_args: --disable=traefik
+
